@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "699946345744",
+    "firebase_url": "https://orderonline-6313e.firebaseio.com",
+    "project_id": "orderonline-6313e",
+    "storage_bucket": "orderonline-6313e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699946345744:android:5fb9efee65434b4d813195",
+        "android_client_info": {
+          "package_name": "com.app.projectstartup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699946345744-0kc00gg26i0cd7ffbm9qtlb3h4lg4qc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.projectstartup",
+            "certificate_hash": "0d1b30f7628d8da202a1c741175051592b830bcb"
+          }
+        },
+        {
+          "client_id": "699946345744-ja5rqmvau3clpphqrcaasgdoofe07sri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxmjsB3TXufAS5sMXbcHmxrbO3m-86A7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699946345744-ja5rqmvau3clpphqrcaasgdoofe07sri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

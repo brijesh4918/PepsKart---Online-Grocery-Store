@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.projectstartup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_scr">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".orders" />
+        <activity
+            android:name=".Activity_Main_2"
+            android:label="@string/title_activity__main_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".adminActivity" />
+        <activity android:name=".db_order_detail" />
+        <activity android:name=".delivery_boy_Activity" />
+        <activity android:name=".cart" />
+        <activity android:name=".product_Detail" />
+        <activity
+            android:name=".customerMain"
+            android:label="All Products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".all_product" />
+        <activity android:name=".AddProduct" />
+        <activity android:name=".DataEntry" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
